@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/pages/collectionpage.tsx","./src/pages/homepage.tsx","./src/pages/mappage.tsx","./src/pages/profilepage.tsx","./src/pages/socialpage.tsx","./src/pages/walkpage.tsx","./src/store/appstore.ts","./src/types/index.ts","./src/utils/colordatabase.ts"],"version":"5.9.3"}
