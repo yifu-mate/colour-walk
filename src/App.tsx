@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import WalkPage from './pages/WalkPage';
 import CollectionPage from './pages/CollectionPage';
@@ -8,7 +8,7 @@ import ProfilePage from './pages/ProfilePage';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="min-h-screen bg-gradient-to-br from-soft-white to-soft-gray">
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -19,7 +19,7 @@ function App() {
           <Route path="/profile" element={<ProfilePage />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
